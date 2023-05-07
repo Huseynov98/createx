@@ -40,4 +40,12 @@ $(function() {
         e.preventDefault();
     $('.testimonials__slider').slick('slickNext')
     })
+
+    $('.program__accerdeon-link').on('click', function(e) {
+        e.preventDefault()
+
+        $(this).toggleClass('program__accerdeon-link--active')
+        $(this).children('.program__accerdeon-text').slideToggle()
+
+    })
 })
