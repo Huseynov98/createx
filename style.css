@@ -1345,6 +1345,15 @@ p {
   color: #1e212c;
   width: 360px;
 }
+
+.blog__item-button a {
+  color: #1e212c;
+}
+.blog__item-button:hover a {
+  color: #f75e05;
+  transition: all 0.5s;
+}
+
 .blog__item-button::before {
   display: block;
   position: absolute;
@@ -1354,6 +1363,7 @@ p {
   width: 20px;
   height: 20px;
   background: url("./resources/icon/Line (Stroke).png") no-repeat;
+  cursor: pointer;
 }
 
 /* ======================================================================= */
