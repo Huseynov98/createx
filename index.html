@@ -21,7 +21,7 @@
         <header class="header">
             <div class="header__top">
                 <div class="container">
-                    <div class="header__top-inner">
+                    <div id="header" class="header__top-inner">
                         <a href="#" class="header__logo logo">
                             <img src="./resources/logo.svg" alt="Логотип" srcset="">
                         </a>
@@ -127,7 +127,7 @@
             <section class="about">
                 <div class="container">
                     <div class="about__inner">
-                        <div class="about__createx">
+                        <div id="about" class="about__createx">
                             <div class="about__createx-content">
                                 <div class="about__heading heading">
                                     <p class="heading__subtitle">
@@ -189,7 +189,7 @@
             </section>
             <section class="directions">
                 <div class="container">
-                    <div class="directions__inner">
+                    <div id="courses" class="directions__inner">
                         <div class="directions__heading heading">
                             <p class="heading__subtitle">
                                 our main directions
@@ -858,7 +858,7 @@
                             </a>
                        </div>
                     </div>       
-                   <div class="main__blog-inner">
+                   <div id="blog" class="main__blog-inner">
                     <ul class="blog__posts-content">
                         <li class="blog__posts-item">
                             <a href="#" class="blog__item-link">
@@ -959,7 +959,7 @@
                         <p class="heading__subtitle">Contact info</p>
                         <h2 class="heading__title">Get in touch</h2>
                     </div>
-                    <div class="contact__inner">
+                    <div id="contact" class="contact__inner">
                         <div class="contact__info-box">
                             <ul class="contact__info">
                                 <li class="contact__info-item contact__info-item--mail">
@@ -1017,8 +1017,145 @@
                     </div>
                 </div>
             </section>
+
+            <section class="questions">
+                <div class="container">
+                    <div class="questions__heading heading">
+                        <p class="heading__subtitle">Any questions?</p>
+                        <h2 class="heading__title heading__title--prog">Drop us a line</h2>
+                </div>
+                <div class="questions__inner">
+                    <div class="questions__image-box">
+                        <img src="./resources/questions__image.svg" alt="">
+                    </div>
+
+                    <div class="questions__form">
+                        <ul class="questions__form-inner">
+                            <li class="questions__form-item">
+                                <div class="questions__form-text">First Name*</div>
+                                <input type="text" name="name" placeholder="Your first name">
+                            </li>
+                            <li class="questions__form-item">
+                                <div class="questions__form-text">last Name*</div>
+                                <input type="text" name="name" placeholder="Your last name">
+                            </li>
+                            <li class="questions__form-item">
+                                <div class="questions__form-text">Email*</div>
+                                <input type="email" name="email" placeholder="Your working email">
+                            </li>
+                            <li class="questions__form-item">
+                                <div class="questions__form-text">Phone</div>
+                                <input type="tel" name="phone" placeholder="Your phone number">
+                            </li>
+                            
+                        </ul>
+                        <div class="questions__form-message">
+                            <div class="questions__form-text questions__form-text--message">Message*</div>
+                            <textarea name="text" cols="100%" rows="10" placeholder="Your message"></textarea>
+                            <div class="questions__form-btn">
+                             <label class="questions__checkbox-label">
+                                <div class="questions__form-checkbox">
+                                    <input type="checkbox" class="questions__form-default">
+                                    <span class="questions__form-custom"></span>
+                                </div>
+                                I agree to receive communications from Createx Online School
+                             </label>
+                                <a class="questions__form-button button" href="#">Send message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="main__footer">
+                    <ul class="main__footer-inner">
+                        <li class="main__footer-item">
+                            <div class="main__footer-socials">
+                                <div class="main__footer-logo">
+                                    <img src="./resources/footer__logo.svg" alt="" srcset="">
+                                </div>
+                                <p class="footer__socials-text">Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country. </p>
+                                <ul class="footer__socials">
+                                    <li class="footer__socials-item">
+                                        <a href="#"><img src="./resources/icon/fb.svg" alt=""></a>
+                                    </li>
+                                    <li class="footer__socials-item">
+                                        <a href="#"><img src="./resources/icon/tw.svg" alt=""></a>
+                                    </li>
+                                    <li class="footer__socials-item">
+                                        <a href="#"><img src="./resources/icon/yu.svg" alt=""></a>
+                                    </li>
+                                    <li class="footer__socials-item">
+                                        <a href="#"><img src="./resources/icon/tl.svg" alt=""></a>
+                                    </li>
+                                    <li class="footer__socials-item">
+                                        <a href="#"><img src="./resources/icon/ins.svg" alt=""></a>
+                                    </li>
+                                    <li class="footer__socials-item">
+                                        <a href="#"><img src="./resources/icon/ln.svg" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="main__footer-item">
+                            <div class="footer__anchor">
+                                <p class="footer__anchor-text">SITE MAP</p>
+                                <a href="#about" class="footer__anchor-link">About Us</a>
+                                <a href="#courses" class="footer__anchor-link">Courses</a>
+                                <a href="#courses" class="footer__anchor-link">Events</a>
+                                <a href="#blog" class="footer__anchor-link">Blog</a>
+                                <a href="#contact" class="footer__anchor-link">Contacts</a>
+                            </div>
+                        </li>
+                        <li class="main__footer-item">
+                           <div class="footer__courses">
+                            <div class="footer__courses-title">COURSES</div>
+                            <a href="#" class="footer__courses-link">Marketing</a>
+                            <a href="#" class="footer__courses-link">Management</a>
+                            <a href="#" class="footer__courses-link">HR & Recruting</a>
+                            <a href="#" class="footer__courses-link">Design</a>
+                            <a href="#" class="footer__courses-link">Development</a>
+                           </div>
+                        </li>
+                        <li class="main__footer-item">
+                            <div class="footer__contact">
+                                <div class="footer__contact-title">
+                                    <p>CONTACT US</p>
+                                </div>
+                                <div class="footer__contact-item">
+                                    <a href="tel:(405) 555-0128" class="footer_contact-link footer__contact--phone">(405) 555-0128</a>
+                                    <a href="mailto:hello@createx.com" class="footer_contact-link footer__contact--email">hello@createx.com</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="main__footer-item">
+                            <div class="footer__site-subscription">
+                                <div class="footer__subscription-title">
+                                    <p>SIGN UP TO OUR NEWSLETTER</p>
+                                </div>
+                                <form class="footer__subscription-text">
+                                    <textarea  name="text" cols="40" rows="2" placeholder="Email address"></textarea>
+                                    <a href="#" class="subscription__btn"></a>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__anchor-main">
+                <div class="container">
+                    <div class="footer__anchor-inner">
+                    <p class="footer__anchor-texts">© All rights reserved.Made with <span>
+                        <img src="./resources/icon/footer__anchor-icon.svg" alt="">
+                    </span>by Createx Studio </p>
+                        <a href="#header" class="footer__anchor-btn">GO TO TOP</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
