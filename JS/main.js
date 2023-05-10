@@ -98,4 +98,3 @@ $(function () {
     $(this).next().slideToggle()
   })
 })
-
